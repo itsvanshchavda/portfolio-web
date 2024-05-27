@@ -73,34 +73,42 @@ export const projects = [
   {
     id: 1,
     title: "Stack Spot - Blogging Platform",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://ui.aceternity.com/",
+    des: "A blogging platform with user accounts, analytics, and engagement support.",
+    img: "/1.png",
+    iconLists: ["/re.svg", "/tail.svg", , "/node-js.svg" , "/express.svg" , "/mongo.svg" ],
+    link: "https://stack-blog-landing.vercel.app/",
+    pinlink:"Stack Spot",
+    code:"https://github.com/itsvanshchavda/StackSpot-Frontend"
+    
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "Nike - Landing Page Design",
+    des: "Nike landing page featuring shoe selection and React smooth scroll effect.",
+    img: "/2.png",
+    pinlink:"Nike",
+    iconLists: ["/re.svg", "/tail.svg",],
+    link: "https://nike-react-website-itsvanshchavda.vercel.app/",
+    code:"https://github.com/itsvanshchavda/Nike_React"
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    title: "Fusion Restaurent",
+    pinlink:"Fusion Restaurent",
+    des:"Restaurant management system with order placement, Firebase integration, and admin support.",
+    img: "/3.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/firebase.svg",],
     link: "/ui.aiimg.com",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "World News",
+    pinlink:"World News",
+    des: "Realtime news application with comprehensive updates and category-wise news.",
+    img: "4.png",
+    iconLists: ["/angular.svg", "/tail.svg", "/ts.svg", "/bootstrap.svg" ],
+    link: "https://www.loom.com/share/8648c2758d31414cac3c784d4fb8c142?sid=f6ed347c-3f69-401e-8ec0-8731b967a566",
+    code :"https://github.com/itsvanshchavda/news-website-angular"
   },
 ];
 
@@ -111,30 +119,7 @@ export const testimonials = [
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
+ 
 ];
 
 export const companies = [
@@ -170,7 +155,7 @@ export const companies = [
   },
 ];
 
-export const workExperience = [
+export const education = [
   {
     id: 1,
     title: "Diploma in Information Technology",
