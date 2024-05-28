@@ -38,13 +38,13 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
-    description: "",
+    title: "Vansh Chavda",
+    description: "Full Stack Devloper",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
-    imgClassName: "",
-    titleClassName: "justify-start",
-    img: "/grid.svg",
-    spareImg: "/b4.svg",
+    imgClassName: "w-20 h-20 max-sm:size-[4.5rem] max-xl:size-[4.3rem] mt-8 mx-10 object-cover rounded-full shadow-gray-900 shadow-2xl",
+    titleClassName: "justify-end   ml-10 items-center -mt-[32px] max-sm:ml-24 max-sm:-mt-[3rem] max-xl:-mt-[3rem]",
+    img: "/me.png",
+    spareImg: "",
   },
 
   {
@@ -114,46 +114,17 @@ export const projects = [
 
 export const testimonials = [
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    quote:"ZTM - (Zero to Mastery) Full Stack Development 2022", 
+    name: "Udemy",
+    title: "A learning platform ",
+    link: "/udemy.svg",
   },
+
+  
  
 ];
 
-export const companies = [
-  {
-    id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
-  },
-  {
-    id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
-  },
-  {
-    id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
-  },
-  {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
-  },
-];
+
 
 export const education = [
   {

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Vortex } from "../components/ui/Vortex";
+import { Vortex } from "../components/ui/vortex";
 import MagicButton from "./MagicButton";
 import { FaLocationArrow } from "react-icons/fa6";
 import { socialMedia } from "@/data";
@@ -30,10 +30,10 @@ function Footer() {
             Any idea in your <span className="text-[#cbacf9]">mind</span> ?
           </h2>
           <p className="text-gray-600 text-sm md:text-xl max-w-xl mt-6 text-center">
-            Let's Make It Happens Together!!
+            Let&apos;s Make It Happens Together!!
           </p>
           <div className="flex flex-col  sm:flex-row items-center gap-4 mt-2">
-            <a onClick={handleButtonClick}>
+            <a onClick={handleButtonClick} href="#about">
               <MagicButton
                 title="Let's get in touch"
                 icon={<FaLocationArrow />}
@@ -67,7 +67,7 @@ function Footer() {
 
 
       
-      {isContactFormOpen && <ContactUs  />}
+      
     </>
 
 
