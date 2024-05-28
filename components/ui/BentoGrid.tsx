@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { IoCopyOutline } from "react-icons/io5";
+import { IoCopyOutline, IoDownloadOutline } from "react-icons/io5";
 
 // Also install this npm i --save-dev @types/react-lottie
 import Lottie from "react-lottie";
@@ -37,11 +37,11 @@ export const BentoGridItem = ({
   id,
   title,
   description,
-  //   remove unecessary things here
   img,
   imgClassName,
   titleClassName,
   spareImg,
+  btn,
 }: {
   className?: string;
   id: number;
@@ -51,6 +51,7 @@ export const BentoGridItem = ({
   imgClassName?: string;
   titleClassName?: string;
   spareImg?: string;
+  btn?: React.ReactNode;
 }) => {
   const leftLists = ["ReactJS", "Express", "Typescript"];
   const rightLists = ["Node JS", "Angular 16", "Tailwind CSS"];
@@ -190,8 +191,28 @@ export const BentoGridItem = ({
                 handleClick={handleCopy}
                 otherClasses="!bg-[#161A31]"
               />
+
+              {/* <button> */}
+
+
             </div>
           )}
+
+
+          <div className="">
+            {btn && (
+              <MagicButton
+                title="My Resume"
+                position="right"
+                icon={<IoDownloadOutline size={20} />}
+                handleClick={() => console.log("Contact me")}
+                otherClasses="!bg-[#161A31] "
+              />
+            )}
+          </div>
+
+
+
         </div>
       </div>
     </div>

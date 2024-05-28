@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Vortex } from "../components/ui/vortex";
+import { Vortex } from "../components/ui/Vortex";
 import MagicButton from "./MagicButton";
 import { FaLocationArrow } from "react-icons/fa6";
 import { socialMedia } from "@/data";
@@ -29,7 +29,7 @@ function Footer() {
           <h2 className="text-white text-2xl md:text-6xl font-bold text-center">
             Any idea in your <span className="text-[#cbacf9]">mind</span> ?
           </h2>
-          <p className="text-gray-600 text-sm md:text-xl max-w-xl mt-6 text-center">
+          <p className="text-slate-300 text-sm md:text-xl max-w-xl mt-6 text-center">
             Let&apos;s Make It Happens Together!!
           </p>
           <div className="flex flex-col  sm:flex-row items-center gap-4 mt-2">
@@ -49,7 +49,7 @@ function Footer() {
 
       </div>
       <div className="mt-20">
-        <p className="md:text-base text-sm md:font-normal font-light">
+        <p className="md:text-base text-sm md:font-normal max-sm:text-[10px] font-light">
           Copyright © 2024 Vansh Chavda
         </p>
       </div>

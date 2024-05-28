@@ -41,10 +41,11 @@ export const gridItems = [
     title: "Vansh Chavda",
     description: "Full Stack Devloper",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
-    imgClassName: "w-20 h-20 max-sm:size-[4.5rem] max-xl:size-[4.3rem] mt-8 mx-10 object-cover rounded-full shadow-gray-900 shadow-2xl",
-    titleClassName: "justify-end   ml-10 items-center -mt-[32px] max-sm:ml-24 max-sm:-mt-[3rem] max-xl:-mt-[3rem]",
+    imgClassName: "size-[6.5rem] border border-white border-2 max-sm:size-[4.5rem] max-xl:size-[4.3rem] mt-10 mx-10 max-sm:mx-6 object-cover rounded-full shadow-gray-800 shadow-2xl",
+    titleClassName: "justify-end ml-11 items-center ",
     img: "/me.png",
     spareImg: "",
+    btn: "Contact Me",
   },
 
   {
@@ -67,6 +68,8 @@ export const gridItems = [
     img: "",
     spareImg: "",
   },
+
+  
 ];
 
 export const projects = [
@@ -112,12 +115,34 @@ export const projects = [
   },
 ];
 
-export const testimonials = [
+export const certifications = [
   {
-    quote:"ZTM - (Zero to Mastery) Full Stack Development 2022", 
+    text:"ZTM - (Zero to Mastery) Full Stack Development 2022", 
     name: "Udemy",
-    title: "A learning platform ",
+    title: "A education technology platform ",
     link: "/udemy.svg",
+  },
+
+  {
+    text:"GirlsScript Summer of Code 2024 – Open-Source Contributor ", 
+    name: "GirlsScript Foundation",
+    title: "OpenSource Program ",
+    link: "/GS.png",
+  },
+
+
+  {
+    text:"GitHub Pro Member", 
+    name: "GitHub",
+    title: "",
+    link: "/GitHub.svg",
+  },
+
+  {
+    text:"ZTM - (Zero to Mastery) Organization Member", 
+    name: "ZTM",
+    title: "Zero To Mastery Academy",
+    link: "/ZTM.png",
   },
 
   

@@ -12,7 +12,7 @@ export const InfiniteMovingCards = ({
   className,
 }: {
   items: {
-    quote: string;
+    text: string;
     name: string;
     title: string;
     link: string;
@@ -84,21 +84,18 @@ export const InfiniteMovingCards = ({
         ref={scrollerRef}
         className={cn(
           // change gap-16
-          " flex min-w-full shrink-0 gap-16 py-4 w-max flex-nowrap",
+          " flex min-w-full  shrink-0 gap-16 py-4 w-max flex-nowrap",
           start && "animate-scroll ",
           pauseOnHover && "hover:[animation-play-state:paused]"
         )}
       >
         {items.map((item, idx) => (
           <li
-            //   change md:w-[450px] to md:w-[60vw] , px-8 py-6 to p-16, border-slate-700 to border-slate-800
-            className="w-[90vw] max-w-full relative rounded-2xl border border-b-0
-             flex-shrink-0 border-slate-800 p-5 md:p-16 md:w-[60vw]"
+           
+            className="w-[90vw] max-w-[46rem] relative rounded-2xl border border-b-0
+             flex-shrink-0 k  p-5 md:p-16 md:w-[60vw]"
             style={{
-              //   background:
-              //     "linear-gradient(180deg, var(--slate-800), var(--slate-900)", //remove this one
-              //   add these two
-              //   you can generate the color from here https://cssgradient.io/
+  
               background: "rgb(4,7,29)",
               backgroundColor:
                 "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
@@ -109,26 +106,26 @@ export const InfiniteMovingCards = ({
             <blockquote>
               <div
                 aria-hidden="true"
-                className="user-select-none -z-1 pointer-events-none absolute -left-0.5 -top-0.5 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]"
+                className="user-select-none  -z-1 pointer-events-none absolute -left-0.5 -top-0.5 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]"
               ></div>
               {/* change text color, text-lg */}
-              <span className=" relative z-20 text-sm md:text-lg leading-[1.6] text-white font-normal">
-                {item.quote}
+              <span className="relative  z-20 mx-10 text-xs md:text-lg leading-[1.6] font-normal">
+                {item.text}
               </span>
               <div className="relative z-20 mt-6 flex flex-row items-center">
                 {/* add this div for the profile img */}
     
 
-                <div className="me-3 border border-white-100 w-20 h-10 rounded-full">
-                  <img src={item.link} alt="profile"  className="object-cover w-20 h-20"/>
+                <div className="rounded-full mx-10">
+                  <img src={item.link} alt="profile"  className="size-10"/>
                 </div>
                 <span className="flex flex-col gap-1">
-                  {/* change text color, font-normal to font-bold, text-xl */}
+                 
                   <span className="text-xl font-bold leading-[1.6] text-white">
                     {item.name}
                   </span>
-                  {/* change text color */}
-                  <span className=" text-sm leading-[1.6] text-white-200 font-normal">
+       
+                  <span className=" text-sm leading-[1.6] font-normal">
                     {item.title}
                   </span>
                 </span>
