@@ -5,6 +5,7 @@ import { FaLinkedinIn } from "react-icons/fa6";
 import { socialMedia } from "@/data";
 import { Vortex } from "./ui/Vortex";
 
+
 function Footer() {
 
 
