@@ -26,7 +26,7 @@ function Footer() {
             Let&apos;s Make It Happens Together!!
           </p>
           <div className="flex flex-col  sm:flex-row items-center gap-4 mt-2">
-            <a  href="www.linkedin.com/in/vanshchavda07" >
+            <a target="_blank" href="https://www.linkedin.com/in/vanshchavda07/" rel="noreferrer" >
               <MagicButton
                 title="Let's Connect"
                 icon={<FaLinkedinIn/>}
