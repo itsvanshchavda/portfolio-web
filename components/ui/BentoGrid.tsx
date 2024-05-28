@@ -193,22 +193,23 @@ export const BentoGridItem = ({
               />
 
               {/* <button> */}
-
-
+         
             </div>
           )}
 
 
           <div className="">
-            {btn && (
-              <MagicButton
-                title="My Resume"
-                position="right"
-                icon={<IoDownloadOutline size={20} />}
-                handleClick={() => console.log("Contact me")}
-                otherClasses="!bg-[#161A31] "
-              />
-            )}
+          {btn && (
+               <a href="https://drive.google.com/file/d/19ryMGQ37WWy2E16tEh7n2lpjrz6Z38iU/view?usp=sharing" target="_blank" rel=" noreferrer">
+               <MagicButton
+                 title="My Resume"
+                 position="right"
+                 icon={<IoDownloadOutline size={20} />}
+                 handleClick={() => console.log("Visit Website")}
+                 otherClasses="!bg-[#161A31] "
+               />
+             </a>
+             )}
           </div>
 
 

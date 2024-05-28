@@ -12,7 +12,7 @@ function Footer() {
   return (
 
     <>
-      <div className="w-full mx-auto rounded-md  h-96 mb-10 overflow-hidden">
+      <div className="w-full mx-auto rounded-md  h-96 mb-10 overflow-hidden" id="contact">
         <VortexTheme
           rangeY={800}
           particleCount={700}
