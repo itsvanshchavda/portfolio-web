@@ -86,13 +86,13 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Nike - Landing Page Design",
-    des: "Nike landing page featuring shoe selection and React smooth scroll effect.",
-    img: "/2.png",
+    title: "School Bazar",
+    des: "An e-commerce platform similar to Flipkart, featuring comprehensive admin support and integrated payment solutions.",
+    img: "/5.png",
     pinlink:"Nike",
-    iconLists: ["/re.svg", "/tail.svg",],
-    link: "https://nike-react-website-itsvanshchavda.vercel.app/",
-    code:"https://github.com/itsvanshchavda/Nike_React"
+    iconLists: ["/re.svg", "/tail.svg","/node-js.svg", "/express.svg", "/mongo.svg", ],
+    link: "https://schoolbazzar.in/",
+    code:"https://schoolbazzar.in/"
   },
   {
     id: 3,
