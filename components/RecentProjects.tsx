@@ -1,7 +1,6 @@
 "use client";
 
 import { FaGithub, FaLocationArrow } from "react-icons/fa6";
-
 import { projects } from "@/data";
 import { PinContainer } from "./ui/Pin";
 
