@@ -3,7 +3,6 @@ import { Vortex } from "../components/ui/Vortex";
 import MagicButton from "./MagicButton";
 import { FaLocationArrow } from "react-icons/fa6";
 import { socialMedia } from "@/data";
-import ContactUs from "./ContactUs";
 
 function Footer() {
 
