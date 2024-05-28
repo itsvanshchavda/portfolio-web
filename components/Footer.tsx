@@ -1,20 +1,13 @@
 import React, { useState } from "react";
-import { Vortex } from "../components/ui/vortex";
+
 import MagicButton from "./MagicButton";
-import { FaLocationArrow } from "react-icons/fa6";
+import { FaLinkedinIn } from "react-icons/fa6";
 import { socialMedia } from "@/data";
+import { Vortex } from "./ui/Vortex";
 
 function Footer() {
 
-  const [isContactFormOpen, setIsContactFormOpen] = useState(false);
 
-  const handleButtonClick = () => {
-    setIsContactFormOpen(true);
-  };
-
-  const handleCloseForm = () => {
-    setIsContactFormOpen(false);
-  };
   return (
 
     <>
@@ -32,10 +25,10 @@ function Footer() {
             Let&apos;s Make It Happens Together!!
           </p>
           <div className="flex flex-col  sm:flex-row items-center gap-4 mt-2">
-            <a onClick={handleButtonClick} href="#about">
+            <a  href="www.linkedin.com/in/vanshchavda07" >
               <MagicButton
-                title="Let's get in touch"
-                icon={<FaLocationArrow />}
+                title="Let's Connect"
+                icon={<FaLinkedinIn/>}
                 position="right"
 
               />

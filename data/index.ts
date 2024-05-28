@@ -176,7 +176,7 @@ export const socialMedia = [
   },
   {
     id: 3,
-    img: "/link.svg",
-    link:"https://www.linkedin.com/in/vanshchavda07/"
+    img: "/whatsapp.svg",
+    link:"https://api.whatsapp.com/send?phone=919737419935"
   },
 ];
