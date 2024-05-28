@@ -23,7 +23,7 @@ function Footer() {
           rangeY={800}
           particleCount={700}
           baseHue={120}
-          className="flex items-center flex-col justify-center px-2 md:px-10 bg-transparent  py-4 w-full h-full"
+          className="flex items-center  flex-col justify-center px-2 md:px-10 bg-transparent  py-4 w-full h-full"
         >
           <h2 className="text-white text-2xl md:text-6xl font-bold text-center">
             Any idea in your <span className="text-[#cbacf9]">mind</span> ?
@@ -37,23 +37,19 @@ function Footer() {
                 title="Let's get in touch"
                 icon={<FaLocationArrow />}
                 position="right"
-              
+
               />
             </a>
-          
+
           </div>
 
 
         </Vortex>
 
       </div>
-      <div className="mt-20">
-        <p className="md:text-base text-sm md:font-normal max-sm:text-[10px] font-light">
-          Copyright © 2024 Vansh Chavda
-        </p>
-      </div>
 
-      <div className="flex items-center -mt-8 justify-end mb-10 md:gap-3 gap-6">
+
+      <div className="flex items-center  justify-center mb-10 md:gap-3 gap-6">
         {socialMedia.map((info) => (
           <a target="_blank" href={info.link} rel="noreferrer"
             key={info.id}
@@ -62,11 +58,20 @@ function Footer() {
             <img src={info.img} alt="icons" width={20} height={20} />
           </a>
         ))}
+
+       
       </div>
 
 
-      
-      
+      <div className="mt-5 mb-5">
+          <p className="md:text-base text-center text-sm md:font-normal font-light">
+            Copyright © 2024 Vansh Chavda
+          </p>
+        </div>
+
+
+
+
     </>
 
 
