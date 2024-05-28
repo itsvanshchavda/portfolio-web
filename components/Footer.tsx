@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import MagicButton from "./MagicButton";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { socialMedia } from "@/data";
-import { Vortex } from "@/components/ui/Vortex";
+import { VortexTheme } from "@/components/ui/VortexTheme";
 
 
 function Footer() {
@@ -13,7 +13,7 @@ function Footer() {
 
     <>
       <div className="w-full mx-auto rounded-md  h-96 mb-10 overflow-hidden">
-        <Vortex
+        <VortexTheme
           rangeY={800}
           particleCount={700}
           baseHue={120}
@@ -38,7 +38,7 @@ function Footer() {
           </div>
 
 
-        </Vortex>
+        </VortexTheme>
 
       </div>
 
