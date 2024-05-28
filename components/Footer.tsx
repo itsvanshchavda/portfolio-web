@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Vortex } from "../components/ui/Vortex";
+import { Vortex } from "../components/ui/vortex";
 import MagicButton from "./MagicButton";
 import { FaLocationArrow } from "react-icons/fa6";
 import { socialMedia } from "@/data";
