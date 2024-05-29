@@ -60,7 +60,7 @@ const Hero = () => {
             Hi! I&apos;m Vansh Chavda, a MERN Stack Developer based in Gujarat.
           </p>
 
-          <a href="#about">
+          <a href="#projects">
             <MagicButton
               title="Show my work"
               icon={<FaLocationArrow />}
