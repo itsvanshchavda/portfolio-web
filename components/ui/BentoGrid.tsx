@@ -200,7 +200,7 @@ export const BentoGridItem = ({
 
           <div className="">
           {btn && (
-               <a href="https://drive.google.com/file/d/19ryMGQ37WWy2E16tEh7n2lpjrz6Z38iU/view?usp=sharing" target="_blank" rel=" noreferrer">
+               <a href="https://drive.google.com/file/d/1_HMmyF3JjgoztDD0tb3OiG1MkSMbNiKa/view?usp=sharing" target="_blank" rel=" noreferrer">
                <MagicButton
                  title="My Resume"
                  position="right"
