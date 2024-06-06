@@ -101,7 +101,8 @@ export const projects = [
     des:"Restaurant management system with order placement, Firebase integration, and admin support.",
     img: "/3.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/firebase.svg",],
-    link: "/ui.aiimg.com",
+    link: "https://fusion-restaurant.vercel.app/",
+    code: "https://github.com/itsvanshchavda/fusion-restaurant"
   },
   {
     id: 4,
