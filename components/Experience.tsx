@@ -4,7 +4,7 @@ import { Timeline } from "@/components/ui/Timeline";
 
 function Experience() {
 
- 
+
   const data = [
     {
       title: "2022",
@@ -69,8 +69,7 @@ function Experience() {
               @Yash Gohel
             </a> who is also a developer, and we turning ideas into reality and working on several projects together.
           </p>
-          <div className="grid grid-cols-2 max-sm:grid-cols-1 gap-4">
-
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <Image
               src="/setup.jpeg"
               alt="feature"
@@ -78,8 +77,6 @@ function Experience() {
               height={500}
               className="rounded-lg object-cover h-auto md:h-44 lg:h-auto w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
-
-
             <Image
               src="/me-and-yash.jpeg"
               alt="feature"
@@ -87,7 +84,6 @@ function Experience() {
               height={500}
               className="rounded-lg object-cover h-auto md:h-auto lg:h-auto w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
-
           </div>
         </div>
       ),
@@ -106,8 +102,8 @@ function Experience() {
           </p>
 
           <p className="text-neutral-800 dark:text-neutral-200 text-[17px]  font-normal mb-8">
-           
-           Tech Stack: React, Next.js, Tailwind CSS, Node.js, Express.js, MongoDB, Typescript and more.
+
+            Tech Stack: React, Next.js, Tailwind CSS, Node.js, Express.js, MongoDB, Typescript and more.
 
           </p>
 
@@ -116,7 +112,7 @@ function Experience() {
             alt="hero template"
             width={500}
             height={500}
-            className="rounded-sm object-contain h-28 md:h-auto lg:h-auto w-2/3 shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            className="rounded-sm object-contain h-auto md:h-auto lg:h-auto w-2/3 shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
           />
 
         </div>
