@@ -6,10 +6,10 @@ import Hero from "@/components/Hero";
 import Grid from "@/components/Grid";
 import Footer from "@/components/Footer";
 import Certifications from '@/components/Certifications';
-import Approach from "@/components/Approach";
-import Experience from "@/components/Experience";
+import Education from "@/components/Education";
 import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
+import Experience from "@/components/Experience";
 
 
 const Home = () => {
@@ -22,8 +22,9 @@ const Home = () => {
         <Grid />
         <RecentProjects />
         <Certifications />
+        <Education />
         <Experience />
-        <Approach />
+
         <Footer />
       </div>
     </main>

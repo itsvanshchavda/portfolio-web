@@ -133,7 +133,7 @@ export const certifications = [
 
 
   {
-    text:"GitHub Pro Member", 
+    text:"GitHub Developer Program Member", 
     name: "GitHub",
     title: "",
     link: "/GitHub.svg",
