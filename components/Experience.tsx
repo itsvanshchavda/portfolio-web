@@ -59,7 +59,7 @@ function Experience() {
       content: (
         <div>
           <p className="text-neutral-800 dark:text-neutral-200 text-[17px] font-normal mb-8">
-            2nd year of clg, I'm improving my frontend programming skills and studying new technologies such as React, Next.js, Tailwind CSS, and more.          </p>
+            2nd year of clg, I&apos;m improving my frontend programming skills and studying new technologies such as React, Next.js, Tailwind CSS, and more.          </p>
           <p className="text-neutral-800 dark:text-neutral-200 text-[17px]  font-normal mb-8">
             All of my friends are chilling and enjoying and i know that my sleepless night & hard work gonna be worth it in future.
           </p>
