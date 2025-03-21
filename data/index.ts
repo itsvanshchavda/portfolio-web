@@ -114,6 +114,20 @@ export const projects = [
     link: "https://www.loom.com/share/8648c2758d31414cac3c784d4fb8c142?sid=f6ed347c-3f69-401e-8ec0-8731b967a566",
     code :"https://github.com/itsvanshchavda/news-website-angular"
   },
+
+
+  {
+    id: 5,
+    title: "Writix AI",
+    pinlink:"Writix AI",
+    des: "From small startups to large enterprises, our AI-driven tool approach Content Creation.",
+    img: "writix.jpg",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/neon.jpg" , "/drizzle.png" ],
+    link: "https://writixai.tech",
+    // code :"https://github.com/itsvanshchavda/news-website-angular"
+  },
+
+  
 ];
 
 export const certifications = [

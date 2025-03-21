@@ -12,12 +12,12 @@ function Footer() {
   return (
 
     <>
-      <div className="w-full mx-auto rounded-md  h-96 mb-10 overflow-hidden" id="contact">
+      <div className="w-full mx-auto rounded-md max-sm:relative top-0 max-sm:top-36  h-96 mb-10 overflow-hidden" id="contact">
         <VortexTheme
           rangeY={800}
           particleCount={700}
           baseHue={120}
-          className="flex items-center  flex-col justify-center px-2 md:px-10 bg-transparent  py-4 w-full h-full"
+          className="flex items-center  z-30 flex-col justify-center px-2 md:px-10 bg-transparent  py-4 w-full h-full"
         >
           <h2 className="text-white text-2xl md:text-6xl font-bold text-center">
             Any idea in your <span className="text-[#cbacf9]">mind</span> ?

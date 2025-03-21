@@ -3,15 +3,14 @@ import React from "react";
 import { Timeline } from "@/components/ui/Timeline";
 
 function Experience() {
-
-
   const data = [
     {
       title: "2022",
       content: (
         <div>
           <p className="text-neutral-800 dark:text-neutral-200 text-[17px] font-normal mb-8">
-            Enrolled into the Diploma in Information Technology program at Sir Bhavsinhji Polytechnic Institute in Bhavnagar, Gujarat.
+            Enrolled into the Diploma in Information Technology program at Sir
+            Bhavsinhji Polytechnic Institute in Bhavnagar, Gujarat.
           </p>
 
           <p className="text-neutral-800 dark:text-neutral-200 text-[17px] font-normal mb-8">
@@ -19,7 +18,8 @@ function Experience() {
           </p>
 
           <p className="text-neutral-800 dark:text-neutral-200 text-[17px] font-normal mb-8">
-            1st year of clg is all about having fun, making new friends, and networking with people that are similar to you.
+            1st year of clg is all about having fun, making new friends, and
+            networking with people that are similar to you.
           </p>
           <div className="grid grid-cols-2 gap-4">
             <Image
@@ -59,15 +59,26 @@ function Experience() {
       content: (
         <div>
           <p className="text-neutral-800 dark:text-neutral-200 text-[17px] font-normal mb-8">
-            2nd year of clg, I&apos;m improving my frontend programming skills and studying new technologies such as React, Next.js, Tailwind CSS, and more.          </p>
+            2nd year of clg, I&apos;m improving my frontend programming skills
+            and studying new technologies such as React, Next.js, Tailwind CSS,
+            and more.{" "}
+          </p>
           <p className="text-neutral-800 dark:text-neutral-200 text-[17px]  font-normal mb-8">
-            All of my friends are chilling and enjoying and i know that my sleepless night & hard work gonna be worth it in future.
+            All of my friends are chilling and enjoying and i know that my
+            sleepless night & hard work gonna be worth it in future.
           </p>
 
           <p className="text-neutral-800 dark:text-neutral-200 text-[17px]  font-normal mb-8">
-            End of the 2023 find my buddy  <a target="_blank" href="https://www.burninghat.tech/" className="relative rounded bg-muted px-[0.6rem] py-[0.2rem] font-mono text-[14px] font-semibold">
+            End of the 2023 find my buddy{" "}
+            <a
+              target="_blank"
+              href="https://www.burninghat.tech/"
+              className="relative rounded bg-muted px-[0.6rem] py-[0.2rem] font-mono text-[14px] font-semibold"
+            >
               @Yash Gohel
-            </a> who is also a developer, and we turning ideas into reality and working on several projects together.
+            </a>{" "}
+            who is also a developer, and we turning ideas into reality and
+            working on several projects together.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <Image
@@ -92,19 +103,31 @@ function Experience() {
       title: "2024",
       content: (
         <div>
-
           <p className="text-neutral-800 dark:text-neutral-200 text-[17px] font-normal mb-8">
-            The best year of my life : ) Clg has finished the three-year of diploma in IT.
+            The best year of my life : ) Clg has finished the three-year of
+            diploma in IT.
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-[17px] font-normal mb-8">
+            Got offer from USA based startup , working as a full stack developer
+            from{" "}
+            <span className="font-semibold ">
+              <br />
+              (Jun 2024 - Present •{" "}
+              {(() => {
+                const startDate = new Date(2024, 4); // June is 5 (0-based index)
+                const currentDate = new Date();
+                const months =
+                  (currentDate.getFullYear() - startDate.getFullYear()) * 12 +
+                  (currentDate.getMonth() - startDate.getMonth());
+                return `${months} ${months === 1 ? "month" : "months"}`;
+              })()}
+              )
+            </span>
           </p>
 
           <p className="text-neutral-800 dark:text-neutral-200 text-[17px]  font-normal mb-8">
-            Got offer from USA Based startup to working as a full stack developer and i accepted it its been 6 months working with them 🎉
-          </p>
-
-          <p className="text-neutral-800 dark:text-neutral-200 text-[17px]  font-normal mb-8">
-
-            Tech Stack: React, Next.js, Tailwind CSS, Node.js, Express.js, MongoDB, Typescript and more.
-
+            Tech Stack: React, Next.js, Tailwind CSS, Node.js, Express.js,
+            MongoDB, Typescript and more.
           </p>
 
           <Image
@@ -114,11 +137,9 @@ function Experience() {
             height={500}
             className="rounded-sm object-contain h-auto md:h-auto lg:h-auto w-2/3 shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
           />
-
         </div>
       ),
     },
-
   ];
   return (
     <div className="w-full md:mb-[10.7rem] pt-10">
