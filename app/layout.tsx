@@ -7,7 +7,7 @@ import { ThemeProvider } from "./provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://www.vanshchavda.me'),
+  metadataBase: new URL('https://www.vanshchavda.tech'),
   keywords: [
     "vanshchavda",
     "vansh chavda",
@@ -24,17 +24,6 @@ export const metadata: Metadata = {
     "vansh portfolio"
   ],
   title: "Vansh Chavda Portfolio",
-  openGraph: {
-    description: "Hey there, I'm Vansh, your friendly web expert! I specialize in making awesome websites that everyone loves. Let's work together to create something magical!",
-    images: [
-      {
-        url: "/me.png",
-        width: 800,
-        height: 600,
-        alt: "Vansh Chavda"
-      }
-    ]
-  }
 };
 
 export default function RootLayout({
