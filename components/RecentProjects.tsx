@@ -20,19 +20,14 @@ const RecentProjects = () => {
             <PinContainer
             
               title={item.pinlink}
-              href="https://twitter.com/mannupaaji"
+              href="#"
             >
-              <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[30vh] lg:h-[30vh] mb-1">
-                <div
-                  className="relative w-full h-full overflow-hidden lg:rounded-3xl"
-                  style={{ backgroundColor: "#13162D" }}
-                >
-                  <img src="/bg.png" alt="bgimg" />
-                </div>
+              <div className="relative rounded-2xl flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[25vh] mb-2">
+               
                 <img
                   src={item.img}
                   alt="cover"
-                  className="z-10 absolute bottom-0"
+                  className="z-10 absolute !rounded-2xl object-contain bottom-0"
                 />
               </div>
 
@@ -72,21 +67,12 @@ const RecentProjects = () => {
                       target="_blank"
                       className="flex lg:text-xl md:text-xs text-sm text-purple"
                     >
-                      Live
+                      Live Site
                     </a>
                     <FaLocationArrow className="ml-2" color="#CBACF9" />
                   </div>
 
-                  <div className="flex items-center">
-                    <a
-                      href={item.code}
-                      target="_blank"
-                      className="flex lg:text-xl md:text-xs text-sm text-purple"
-                    >
-                      Code
-                    </a>
-                    <FaGithub className="ml-2" color="#CBACF9" />
-                  </div>
+                 
                 </div>
               </div>
             </PinContainer>
@@ -98,7 +84,7 @@ const RecentProjects = () => {
           className="h-auto"
             
           >
-            <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[30vh] lg:h-[30vh] mb-10">
+            <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] mb-10">
               <div
                 className="relative w-full h-full overflow-hidden lg:rounded-3xl"
                 style={{ backgroundColor: "#13162D" }}

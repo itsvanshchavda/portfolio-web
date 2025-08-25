@@ -57,7 +57,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Vansh Chavda, a MERN Stack Developer based in Gujarat.
+            Hi! I&apos;m Vansh Chavda, a Full Stack Developer based in Gujarat.
           </p>
 
           <a href="#projects">

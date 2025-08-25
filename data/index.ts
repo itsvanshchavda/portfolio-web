@@ -73,59 +73,48 @@ export const gridItems = [
 ];
 
 export const projects = [
+  
   {
     id: 1,
-    title: "Stack Spot - Blogging Platform",
-    des: "A blogging platform with user accounts, analytics, and engagement support.",
-    img: "/1.png",
-    iconLists: ["/re.svg", "/tail.svg", , "/node-js.svg" , "/express.svg" , "/mongo.svg" ],
-    link: "https://stack-blog-landing.vercel.app/",
-    pinlink:"Stack Spot",
-    code:"https://github.com/itsvanshchavda/StackSpot-Frontend"
-    
-  },
-  {
-    id: 2,
     title: "School Bazar",
     des: "An e-commerce platform similar to Flipkart, featuring comprehensive admin support and integrated payment solutions.",
     img: "/5.png",
     pinlink:"Nike",
     iconLists: ["/re.svg", "/tail.svg","/node-js.svg", "/express.svg", "/mongo.svg", ],
     link: "https://schoolbazzar.in/",
-    code:"https://schoolbazzar.in/"
-  },
-  {
-    id: 3,
-    title: "Fusion Restaurent",
-    pinlink:"Fusion Restaurent",
-    des:"Restaurant management system with order placement, Firebase integration, and admin support.",
-    img: "/3.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/firebase.svg",],
-    link: "https://fusion-restaurant.vercel.app/",
-    code: "https://github.com/itsvanshchavda/fusion-restaurant"
-  },
-  {
-    id: 4,
-    title: "World News",
-    pinlink:"World News",
-    des: "Realtime news application with comprehensive updates and category-wise news.",
-    img: "4.png",
-    iconLists: ["/angular.svg", "/tail.svg", "/ts.svg", "/bootstrap.svg" ],
-    link: "https://www.loom.com/share/8648c2758d31414cac3c784d4fb8c142?sid=f6ed347c-3f69-401e-8ec0-8731b967a566",
-    code :"https://github.com/itsvanshchavda/news-website-angular"
   },
 
-
   {
-    id: 5,
+    id: 2,
     title: "Writix AI",
     pinlink:"Writix AI",
     des: "From small startups to large enterprises, our AI-driven tool approach Content Creation.",
     img: "writix.jpg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/neon.jpg" , "/drizzle.png" ],
     link: "https://writixai.tech",
-    // code :"https://github.com/itsvanshchavda/news-website-angular"
+
   },
+
+  {
+    id :3 ,
+    title : "Jobnomous",
+    pinlink:"Jobnomous",
+    des : "From resume optimization to zero-click job applications, Jobnomous AI helps job seekers land interviews faster with human-like automation.",
+    img : "jobnomous.png",
+    iconLists : ["/next.svg", "/tail.svg", "/node-js.svg", "/pup.png", "/mongo.svg", ],
+    link : "https://jobnomous.com",
+  },
+
+
+    {
+    id :4,
+    title : "Infratrail",
+    pinlink:"Jobnomous",
+    des: "From cloud issues detection to cost optimization, InfraTrail helps teams secure and manage cloud infrastructure with AI-powered automation.",
+    img : "infratrail.png",
+    iconLists : ["/next.svg", "/tail.svg", "/node-js.svg",  "/mongo.svg", "/aws.png" ],
+    link : "https://infratrail.com",
+  }
 
   
 ];
@@ -171,8 +160,15 @@ export const education = [
     id: 1,
     title: "Diploma in Information Technology",
     desc: "Sir Bhavsinhji Polytechnic Institute - Bhavnagar , Gujarat",
-    className: "md:col-span-2",
-    date: "2021 - 2024",
+    date: "Nov 2021 - Jun 2024",
+    thumbnail: "/exp1.svg",
+  },
+
+    {
+    id: 2,
+   title: "BSc in Information Technology",
+    desc: "Dr. Babasaheb Ambedkar Open University (BAOU)",
+    date: "Aug 2024 - Present ",
     thumbnail: "/exp1.svg",
   },
  

@@ -222,18 +222,21 @@ export function Globe({ globeConfig, data }: WorldProps) {
       clearInterval(interval);
     };
   }, [globeRef.current, globeData]);
-
-  return (
-    <>
-      <threeGlobe ref={globeRef} />
-    </>
-  );
+return (
+  <>
+    {globeRef.current && <primitive object={globeRef.current} />}
+  </>
+);
+ 
 }
 
 export function WebGLRendererConfig() {
   const { gl, size } = useThree();
 
   useEffect(() => {
+
+    if(typeof window === 'undefined') return;
+
     gl.setPixelRatio(window.devicePixelRatio);
     gl.setSize(size.width, size.height);
     gl.setClearColor(0xffaaff, 0);
